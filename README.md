@@ -16,9 +16,9 @@
 <p align="center">
   <strong>A practice repository to learn Rust programming language, RustC, and Cargo.</strong>
   <br />
-  Version: v0.0.2
+  Version: v0.0.3
   <br />
-  Status: active learning repository.
+  Status: active learning repository with initial Cargo project baseline.
   <br />
   <a href="https://github.com/zcalifornia-ph/practice-rust"><strong>Explore the repository</strong></a>
   <br />
@@ -47,6 +47,11 @@
 ## About The Project
 
 `PRACTICE RUST` is a personal practice repository focused on building practical Rust fundamentals through small, iterative exercises and documentation-first learning.
+
+Current implementation baseline:
+
+- Cargo project scaffold added at `practice-rust/`
+- Initial binary runs successfully with `cargo run` (`Hello, world!`)
 
 ### Learning Scope
 
@@ -84,12 +89,17 @@ git clone https://github.com/zcalifornia-ph/practice-rust.git
 cd practice-rust
 ```
 
-2. Create a sample project to validate your setup:
+2. Run the included Cargo project:
 
 ```bash
-cargo new hello_rust
-cd hello_rust
+cd practice-rust
 cargo run
+```
+
+Expected output:
+
+```text
+Hello, world!
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -108,6 +118,7 @@ Current primary learning material:
 
 ## Roadmap
 
+- [x] Initialize first Cargo binary project (`practice-rust`)
 - [ ] Add beginner Rust exercises per topic
 - [ ] Add Cargo workflow notes and command references
 - [ ] Add ownership and borrowing practice modules

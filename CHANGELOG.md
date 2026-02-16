@@ -2,6 +2,17 @@
 
 Status: active learning repository.
 
+## v0.0.3
+
+### Added or Changed
+- Added initial Cargo binary project scaffold under `practice-rust/` (`Cargo.toml`, `Cargo.lock`, `src/main.rs`).
+- Captured first successful local build/run baseline for the project (`cargo run` with `Hello, world!` output).
+- Updated root `README.md` version marker to `v0.0.3` and aligned setup instructions to run the included `practice-rust` project.
+- Added `docs/version-0.0.3-docs.md` with detailed notes for this version.
+
+### For Deletion
+- `practice-rust/target/` generated build artifacts (created by `cargo build` / `cargo run`).
+
 ## v0.0.2
 
 ### Added or Changed
