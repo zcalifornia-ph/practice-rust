@@ -16,9 +16,9 @@
 <p align="center">
   <strong>A practice repository to learn Rust programming language, RustC, and Cargo.</strong>
   <br />
-  Version: v0.0.3
+  Version: v0.0.4
   <br />
-  Status: active learning repository with initial Cargo project baseline.
+  Status: active learning repository with Cargo baseline and first primitive data types exercise.
   <br />
   <a href="https://github.com/zcalifornia-ph/practice-rust"><strong>Explore the repository</strong></a>
   <br />
@@ -37,6 +37,7 @@
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
+  - [Run Primitive Data Types Exercise](#run-primitive-data-types-exercise)
 - [Learning Resource](#learning-resource)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
@@ -52,6 +53,8 @@ Current implementation baseline:
 
 - Cargo project scaffold added at `practice-rust/`
 - Initial binary runs successfully with `cargo run` (`Hello, world!`)
+- First standalone exercise added at `practice-rust/src/u1-primitive-data-types/integers.rs`
+- Exercise demonstrates signed/unsigned integer usage and basic `bool`/`char` output
 
 ### Learning Scope
 
@@ -102,6 +105,27 @@ Expected output:
 Hello, world!
 ```
 
+### Run Primitive Data Types Exercise
+
+To compile and run the first topic exercise:
+
+```bash
+cd practice-rust/src/u1-primitive-data-types
+rustc integers.rs -o integers
+```
+
+Run the produced binary:
+
+```bash
+./integers
+```
+
+On Windows PowerShell, use:
+
+```powershell
+.\integers.exe
+```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Learning Resource
@@ -119,7 +143,8 @@ Current primary learning material:
 ## Roadmap
 
 - [x] Initialize first Cargo binary project (`practice-rust`)
-- [ ] Add beginner Rust exercises per topic
+- [x] Add first beginner exercise (`u1-primitive-data-types/integers.rs`)
+- [ ] Add more beginner Rust exercises per topic
 - [ ] Add Cargo workflow notes and command references
 - [ ] Add ownership and borrowing practice modules
 - [ ] Add tests and examples for collections and error handling

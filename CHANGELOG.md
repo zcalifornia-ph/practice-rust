@@ -2,6 +2,18 @@
 
 Status: active learning repository.
 
+## v0.0.4
+
+### Added or Changed
+- Added first primitive data types practice exercise at `practice-rust/src/u1-primitive-data-types/integers.rs`.
+- Captured signed/unsigned integer usage examples plus basic `bool` and `char` output checks in the exercise.
+- Updated root `README.md` from `v0.0.3` to `v0.0.4` and added run instructions for the new exercise file.
+- Added `docs/version-0.0.4-docs.md` with expanded technical notes for this release.
+
+### For Deletion
+- `practice-rust/src/u1-primitive-data-types/integers.exe` generated build artifact.
+- `practice-rust/src/u1-primitive-data-types/integers.pdb` generated debug-symbol artifact.
+
 ## v0.0.3
 
 ### Added or Changed
